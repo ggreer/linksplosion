@@ -38,4 +38,3 @@ function create_tabs() {
 
 get_links(selection.getRangeAt(0).cloneContents());
 create_tabs(urls);
-//debugger;
