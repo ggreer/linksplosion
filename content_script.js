@@ -29,6 +29,7 @@ function get_links(node) {
 
 function create_tabs() {
   var i;
+  var url;
 
   for (i = 0; i < urls.length; i++) {
     url = urls[i];
