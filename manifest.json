@@ -9,9 +9,9 @@
     "128": "icons/icon128.png"
   },
   "background": {"scripts": ["background.js"]},
-  "browser_action": {
-    "default_icon": "icons/icon48.png",
-    "default_title": "Open all links in selection."
-  },
-  "permissions": ["tabs", "<all_urls>"]
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "<all_urls>"
+  ]
 }
