@@ -19,7 +19,7 @@ function get_links(node) {
   for(i = 0; i < children.length; i++) {
     child = children[i];
 
-    if (child.href) {
+    if (child.href && urls.indexOf(child.href) === -1) {
       urls.push(child.href);
     }
 
