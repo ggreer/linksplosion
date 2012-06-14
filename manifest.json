@@ -1,6 +1,6 @@
 {
   "name": "Linksplosion",
-  "version": "0.1",
+  "version": "0.2",
   "manifest_version": 2,
   "description": "Open all links in selected text.",
   "homepage_url": "https://github.com/ggreer/linksplosion",
