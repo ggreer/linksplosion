@@ -1,6 +1,6 @@
 {
   "name": "Linksplosion",
-  "version": "0.3",
+  "version": "0.4",
   "manifest_version": 2,
   "description": "Open all links in selected text.",
   "homepage_url": "https://github.com/ggreer/linksplosion",
@@ -11,7 +11,6 @@
   "background": {"scripts": ["background.js"]},
   "permissions": [
     "contextMenus",
-    "tabs",
     "<all_urls>"
   ]
 }
